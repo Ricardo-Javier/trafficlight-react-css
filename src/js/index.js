@@ -7,6 +7,7 @@ import "../styles/index.scss";
 
 //import your own components
 import TrafficLight from "./component/trafficlight.js";
+import { TrafficLightFunction } from "./component/trafficlight-functional.js";
 
 //render your react application
-ReactDOM.render(<TrafficLight />, document.querySelector("#app"));
+ReactDOM.render(<TrafficLightFunction />, document.querySelector("#app"));
